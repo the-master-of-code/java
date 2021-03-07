@@ -8,6 +8,8 @@ package thread;
 public class ProducerCustomerFlag {//生产者消费者模式使用标志位解决
 
     public static void main(String[] args) {//剧本杀
+
+        System.out.println("==============剧本杀开始啦===============");
         Script script = new Script("精彩的剧本");
         Author author = new Author(script);
         Player player = new Player(script);
